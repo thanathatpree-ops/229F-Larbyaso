@@ -54,7 +54,7 @@ public class Enemywithweapon : Enemy , IsShootable
     {
         if (WaitTime >= ReloadTime)
         {
-            
+            this.anim.SetTrigger("isShoot");
             GameObject bulletObj = Instantiate(Bullet, ShootPoint.position, Quaternion.identity);
 
            
