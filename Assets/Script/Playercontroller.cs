@@ -4,12 +4,13 @@ public class PlayerController : MonoBehaviour
 {
     private Animator anim;
     [Header("Movement Settings")]
-    public float moveSpeed = 5f;
+    public float moveSpeed = 10f;
     public float jumpForce = 10f;
 
     [Header("Jump Settings")]
     public int maxJumps = 2;
     private int jumpsRemaining;
+    public float fallMultiplier = 2.5f;
 
     [Header("Ground Check")]
     public Transform groundCheck;
@@ -68,6 +69,17 @@ public class PlayerController : MonoBehaviour
         }
 
         anim.SetBool("isGround", isGrounded);
+
+        if (rb.linearVelocity.y < 0)
+        {
+            
+            rb.gravityScale = fallMultiplier;
+        }
+        else
+        {
+            
+            rb.gravityScale = 1f;
+        }
     }
 
     void FixedUpdate()
