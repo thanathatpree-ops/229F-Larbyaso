@@ -12,6 +12,8 @@ public class CameraFollow : MonoBehaviour
     public bool useBounds = true; 
     public float minX; 
     public float maxX;    
+    public float minY; 
+    public float maxY;    
 
     void LateUpdate()
     {
@@ -22,6 +24,7 @@ public class CameraFollow : MonoBehaviour
             if (useBounds)
             {
                 desiredPosition.x = Mathf.Clamp(desiredPosition.x, minX, maxX);             
+                desiredPosition.y = Mathf.Clamp(desiredPosition.y, minY, maxY);             
             }
 
             Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed);
