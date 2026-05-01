@@ -45,6 +45,11 @@ public class EnemywithWalk : Enemy
         }
     }
 
+    public void AnimAttack ()
+    {
+        anim.SetTrigger("Attack");
+    }
+
     private void ChasePlayer()
     {
         
@@ -75,6 +80,14 @@ public class EnemywithWalk : Enemy
     {
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, detectRange);
+    }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.TryGetComponent<Player>(out Player player))
+        {
+            anim.SetTrigger("Attack");
+        }
     }
 
     private void FixedUpdate()

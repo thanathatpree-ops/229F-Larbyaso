@@ -69,6 +69,10 @@ public class Player : Character , IsShootable
 
     public void OnHitWith(Enemy enemy)
     {
+        if (enemy is EnemyBoss boss)
+        {
+            boss.AnimAttack();
+        }
         TakeDamage(enemy.Damage);
     }
 
@@ -168,7 +172,7 @@ public class Player : Character , IsShootable
                 
                 if (enemyCollider.TryGetComponent<Enemy>(out Enemy enemy))
                 {
-                    enemy.TakeDamage(Damage);
+                    enemy.TakeDamage(Damage);                  
                     Debug.Log("Slashed " + enemy.name);
                 }
             }
