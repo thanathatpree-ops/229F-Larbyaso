@@ -12,8 +12,8 @@ public class EnemyBoss : Enemy
         void Start()
         {
 
-            base.Initialize(50, 25);
-            this.MpDrop = 5;
+            base.Initialize(80, 20);
+            this.MpDrop = 10;
 
 
             if (player == null)
@@ -96,20 +96,20 @@ public class EnemyBoss : Enemy
             if (this.IsDead())
             {
 
-                Debug.Log("1. Enemy µÒÂáÅéÇ (à¢éÒ if IsDead)");
+                Debug.Log("1. Enemy ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ (ï¿½ï¿½ï¿½ if IsDead)");
 
                 Player player = FindAnyObjectByType<Player>();
 
                 if (player != null)
                 {
-                    // ¨Ø´ B: à¨Í Player
-                    Debug.Log("2. à¨Í Player áÅéÇ ª×èÍ: " + player.name);
+                    // ï¿½Ø´ B: ï¿½ï¿½ Player
+                    Debug.Log("2. ï¿½ï¿½ Player ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½: " + player.name);
                     player.AddMp(this.MpDrop);
                     Destroy(this.gameObject);
                 }
                 else
-                { // ¨Ø´ C: ËÒ Player äÁèà¨Í
-                    Debug.LogError("3. ËÒ Player äÁèà¨Í!!! (player à»ç¹ null)");
+                { // ï¿½Ø´ C: ï¿½ï¿½ Player ï¿½ï¿½ï¿½ï¿½ï¿½
+                    Debug.LogError("3. ï¿½ï¿½ Player ï¿½ï¿½ï¿½ï¿½ï¿½!!! (player ï¿½ï¿½ null)");
                 }
 
             }

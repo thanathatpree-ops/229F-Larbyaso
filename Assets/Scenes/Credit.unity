@@ -336,8 +336,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -62.9}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 53, y: -65}
+  m_SizeDelta: {x: 609.6824, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &306267802
 MonoBehaviour:
@@ -359,7 +359,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Thanthat Preeda '
+  m_text: 1670702669 Thanthat Preeda Gi204_229F No.18  make Level design map design
+    monster design ui design
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -425,7 +426,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 152.59483, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -545,8 +546,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 21.7, y: -123.6}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -173, y: -139}
+  m_SizeDelta: {x: 156.5422, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &838451455
 MonoBehaviour:
@@ -568,7 +569,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'name '
+  m_text: 1670705852 Supasuda Sriwannawat No.35 Gi204_229F  make script code  animation
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -634,7 +635,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -259.13776, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -862,7 +863,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 146, y: 193}
+  m_AnchoredPosition: {x: 214, y: 302}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1409077842
@@ -1001,7 +1002,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -19.8, y: -277.6}
+  m_AnchoredPosition: {x: -47.525, y: -246.7}
   m_SizeDelta: {x: 407.4928, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1667521914
@@ -1024,7 +1025,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Thank you for Asset : https://assetstore.unity.com/publishers/40094'
+  m_text: 'Thank you for Asset : https://assetstore.unity.com/publishers/40094
+
+    https://luizmelo.itch.io/hero-knight
+
+    https://kalponic-studio.itch.io/pixel-fantasy-spider-1
+
+    https://spikerman.itch.io/sword-slashes
+
+    https://assetstore.unity.com/packages/2d/environments/2d-platfrom-tile-set-cave-61672'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1051,8 +1060,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 13.4
-  m_fontSizeBase: 13.4
+  m_fontSize: 11.55
+  m_fontSizeBase: 11.55
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
