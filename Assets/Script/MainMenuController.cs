@@ -10,7 +10,11 @@ public class MainMenuController : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
-    
+    public void Credit()
+    {
+        Debug.Log("Credit");
+        SceneManager.LoadScene("Credit");
+    }
     public void QuitGame()
     {
         Debug.Log("Quit Game!"); 
