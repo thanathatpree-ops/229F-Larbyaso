@@ -14,9 +14,9 @@ public class GameOverManager : MonoBehaviour
 
     public void RestartLevel()
     {
-        Time.timeScale = 1f; 
+        Time.timeScale = 1f;
 
-        
+        PlayerData.ResetData();
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
